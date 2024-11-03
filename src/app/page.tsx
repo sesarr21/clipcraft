@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <div className="container">
+    <div className="container-home">
         <nav>
           <ul>
             <div className="clipcraft">
@@ -22,7 +22,7 @@ export default function Page() {
             <li>Kategori <RiArrowDropDownLine /></li>
             <input type="text" className="cari" placeholder="Kamu ingin menguasai skill editing apa hari ini?"/>
           <button className="btn-search"><CiSearch /></button>
-          <Link href="/auth/register">
+          <Link href="/auth/login">
             <button className="btn-daftar">Daftar/Masuk</button>
           </Link>
           </ul>
@@ -90,12 +90,14 @@ export default function Page() {
           <div className="content-2">
             <div className="sub-content-2">
               <h2>Videografi</h2>
-              <div className="sc2 a2">
-                <h2>Film Pendek</h2>
-                <p>-Transition Cinematic</p>
-                <p>-Color Grading Film</p>
-                <p>-Subtitle & Text Style</p>
-              </div>
+              <Link href="#">
+                <div className="sc2 a2">
+                  <h2>Film Pendek</h2>
+                  <p>-Transition Cinematic</p>
+                  <p>-Color Grading Film</p>
+                  <p>-Subtitle & Text Style</p>
+                </div>
+              </Link>
               <div className="sc2 b2">
                 <h2>Dokumenter</h2>
                 <p>-Naration Tools</p>
@@ -129,7 +131,21 @@ export default function Page() {
             </div>
           </div>
           <div className="content-3">
-        
+            <div className="sub-content-3 a3"></div>
+            <div className="sub-content-3 b3"></div>
+            <div className="sub-content-3 c3"></div>
+            <div className="sub-content-3 d3"></div>
+            <div className="sub-content-3 e3"></div>
+            <div className="sub-content-3 a3"></div>
+            <div className="sub-content-3 b3"></div>
+            <div className="sub-content-3 c3"></div>
+            <div className="sub-content-3 d3"></div>
+            <div className="sub-content-3 e3"></div>
+            <div className="sub-content-3 a3"></div>
+            <div className="sub-content-3 b3"></div>
+            <div className="sub-content-3 c3"></div>
+            <div className="sub-content-3 d3"></div>
+            <div className="sub-content-3 e3"></div>
           </div>
         </div>
     </div>
